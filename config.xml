@@ -1,0 +1,4 @@
+<config>
+	<visualizerPath>/usr/bin/dot</visualizerPath>
+	<packageName>nano</packageName>
+</config>
