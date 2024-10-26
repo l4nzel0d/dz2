@@ -54,6 +54,8 @@ To visualize the dependency graph of a specified package:
 2. The generated dependency graph will be saved as `<packageName>_dependencies.png` in the project directory.
 
 3. The generated image will automatically open in Ristretto.
+![Alt text](/screenshots/pic4.png)
+
 
 ## Testing
 
