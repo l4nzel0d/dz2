@@ -38,7 +38,7 @@ def visualize_graph(graph_data, visualizer_path, package_name):
 		print(f"Dependency graph saved to {output_path}")
 		
 		# Open the generated image in Ristretto
-		subprocess.run(["ristretto", output_path])
+		subprocess.Popen(["ristretto", output_path])
 		
 	finally:
 		os.remove(dot_path)
